@@ -36,7 +36,7 @@ public class Senha {
         try {
             //Personaliza quantidade de caracteres (requer parâmetro args[0])
             for (int a=0;a<Integer.parseInt(args[0]);a++) {
-                //invoca método digitos e passa parâmetro aleatório
+                //Invoca método digitos e passa parâmetro aleatório
                 digitos((byte)senha.nextInt(62));
                 //Reinicia o SecureRandom a cada múltiplo de entre 7 e 14
                 if (a%(7+randomcont)==0) {
@@ -48,7 +48,7 @@ public class Senha {
         //Imprime 12 caracteres, quando não tem parâmetro
         catch (Exception e) {
             for (byte a=0;a<12;a++) {
-                //invoca método digitos e passa parâmetro aleatório
+                //Invoca método digitos e passa parâmetro aleatório
                 digitos((byte)senha.nextInt(62));
             }
         }
