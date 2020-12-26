@@ -23,7 +23,7 @@ Para valores personalizados, digite um número inteiro após java Senha. (exempl
 
 Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte (`java senha.java`), mas recomendo executar o bytecode .class por razões de melhor desempenho.
 
-<h1>Dicas para usuários de Linux: </h1>
+# Dicas para usuários de Linux:
 
 Em caso de lentidão/travamento para geração de valores pseudoaleatórios, considere a possibilidade de instalar e configurar o rng-tools, para melhorar velocidade de geração de entropia de qualidade.
 
