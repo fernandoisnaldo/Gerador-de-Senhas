@@ -31,13 +31,13 @@ public class Senha {
     public static void main(String[] args) {
         SecureRandom senha = new SecureRandom();
         System.out.print("Senha:\n");
-		//Define fator de aleatoriedade para reiniciar SecureRandom
+	//Define fator de aleatoriedade para reiniciar SecureRandom
         byte randomcont=(byte)senha.nextInt(8);
         try {
         	//Personaliza quantidade de caracteres (requer parâmetro args[0])
             for (int a=0;a<Integer.parseInt(args[0]);a++) {
                 digitos((byte)senha.nextInt(62));
-                //Reinicia o SecureRandom a cada múltiplo de entre 7 e 15
+                //Reinicia o SecureRandom a cada múltiplo de entre 7 e 14
                 if (a%(7+randomcont)==0) {
                 	randomcont=(byte)senha.nextInt(8);
                 	senha = new SecureRandom();
@@ -53,7 +53,7 @@ public class Senha {
         System.out.print("\n");
         System.exit(0);
     }
-    //Recebe parâmetro de RNG e imprime 1 caractere
+    //Recebe parâmetro de SecureRandom e imprime 1 caractere
     static void digitos(byte random62){
     	//imprime caractere latino minúsculo
         if (random62<26) {
