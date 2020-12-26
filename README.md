@@ -6,7 +6,8 @@ Eg:. Para gerar 20 caracteres, utilize o parâmetro 20. O mesmo vale pra qualque
 
 Comando de exemplo para 20 caracteres: java Senha 20
 
-Dica para usuários de Linux:
+<h1>Dicas para usuários de Linux: </h1>
+
 Em caso de lentidão/travamento para geração de valores pseudoaleatórios, considere a possibilidade de instalar e configurar o rng-tools, para melhorar velocidade de geração de entropia de qualidade.
 
 https://wiki.archlinux.org/index.php/Rng-tools
