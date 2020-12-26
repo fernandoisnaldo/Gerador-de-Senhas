@@ -10,7 +10,7 @@ Em caso de lentidão/travamento para geração de valores pseudoaleatórios, con
 
 https://wiki.archlinux.org/index.php/Rng-tools
 
-Se o seu hardware não suporta TRNG, considere instalar e configurar o haveged.
+Se (e somente se) o seu hardware não suporta TRNG, considere instalar e configurar o haveged.
 
 https://wiki.archlinux.org/index.php/Haveged
 
