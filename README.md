@@ -8,7 +8,7 @@ Este programa por padrão gera uma senha de 12 caracteres contendo letras do alf
 
 2) Configure as suas variáveis de ambiente para o JDK (caso o seu sistema operacional já não faça isso pra você)
 
-3) Digite javac Senha.java para compilar.
+3) Digite **javac Senha.java** para compilar.
 
 <h1>Como executar: </h1>
 
@@ -16,7 +16,7 @@ Este programa por padrão gera uma senha de 12 caracteres contendo letras do alf
 
 2) Digite java Senha.
 
-Para valores personalizados, digite um número inteiro após java Senha. (exemplo: java Senha 20)
+Para valores personalizados, digite um número inteiro após java Senha. (exemplo: **java Senha 20**)
 
 Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte (java senha.java), mas recomendo executar o bytecode .class por razões de melhor desempenho.
 
