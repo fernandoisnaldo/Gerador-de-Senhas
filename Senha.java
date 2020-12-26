@@ -34,7 +34,7 @@ public class Senha {
 	//Define fator de aleatoriedade para reiniciar SecureRandom
         byte randomcont=(byte)senha.nextInt(8);
         try {
-        	//Personaliza quantidade de caracteres (requer parâmetro args[0])
+            //Personaliza quantidade de caracteres (requer parâmetro args[0])
             for (int a=0;a<Integer.parseInt(args[0]);a++) {
                 digitos((byte)senha.nextInt(62));
                 //Reinicia o SecureRandom a cada múltiplo de entre 7 e 14
