@@ -15,5 +15,3 @@ https://wiki.archlinux.org/index.php/Rng-tools
 Se (e somente se) o seu hardware não suporta TRNG, considere instalar e configurar o haveged.
 
 https://wiki.archlinux.org/index.php/Haveged
-
-Não inventem moda de utilizar o /dev/urandom como gerador de valores pseudoaleatórios, isso é terrível para criptografia e segurança. Usem o /dev/urandom somente para programas que não sejam de propósito de segurança.
