@@ -4,9 +4,9 @@ Este programa por padrão gera uma senha de 12 caracteres contendo letras do alf
 
 **Como compilar:**
 
-1) Instale o OpenJDK ou o Oracle JDK.
+1) Instale o OpenJDK ou o Oracle JDK: https://openjdk.java.net/install/
 
-2) Configure as suas variáveis de ambiente para o JDK (caso o seu sistema operacional já não faça isso pra você)
+2) Configure as suas variáveis de ambiente para o JDK (caso o seu sistema operacional já não faça isso pra você): https://www.formaticabit.com/configurando-variaveis-de-ambiente-no-java/
 
 3) Digite `javac Senha.java` para compilar.
 
