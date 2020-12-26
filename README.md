@@ -18,7 +18,7 @@ Este programa por padrão gera uma senha de 12 caracteres, porém este número p
 
 Para valores personalizados, digite um número inteiro após java Senha.
 
-Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte, mas recomendamos o bytecode .class por razões de desempenho.
+Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte (java senha.java), mas recomendamos o bytecode .class por razões de desempenho.
 
 <h1>Dicas para usuários de Linux: </h1>
 
