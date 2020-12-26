@@ -26,6 +26,6 @@ Em caso de lentidão/travamento para geração de valores pseudoaleatórios, con
 
 https://wiki.archlinux.org/index.php/Rng-tools
 
-Se (e somente se) o seu hardware não possui HRNG, considere instalar e configurar o Haveged.
+Se (e somente se) o seu hardware não possui um RNG confiável, considere instalar e configurar o Haveged.
 
 https://wiki.archlinux.org/index.php/Haveged
