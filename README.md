@@ -13,6 +13,7 @@ Este programa por padrão gera uma senha de 12 caracteres, porém este número p
 <h1>Como executar: </h1>
 
 1) Baixe ou gere o arquivo Senha.class 
+
 Algumas versões do OpenJDK permitem executar a partir do código-fonte, mas recomendamos o bytecode .class por razões de desempenho.
 
 2) Digite java Senha.
