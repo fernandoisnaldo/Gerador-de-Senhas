@@ -2,7 +2,7 @@
 Programa em Java feito para gerar senhas.
 Este programa por padrão gera uma senha de 12 caracteres contendo letras do alfabeto latino (caixa alta e caixa baixa) e números, porém o número de caracteres pode ser personalizado a seu gosto.
 
-**Como compilar: **
+**Como compilar:**
 
 1) Instale o OpenJDK ou o Oracle JDK.
 
@@ -10,7 +10,7 @@ Este programa por padrão gera uma senha de 12 caracteres contendo letras do alf
 
 3) Digite `javac Senha.java` para compilar.
 
-**Como executar: **
+**Como executar:**
 
 1) Baixe o arquivo Senha.class. Se você preferir, pode gerar o .class a partir do procedimento de compilação.
 
