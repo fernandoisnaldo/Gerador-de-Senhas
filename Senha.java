@@ -26,7 +26,7 @@ public class Senha {
     /**
      * 
      * @param args Número inteiro define um número personalizado de caracteres. 
-     * Ausência de parâmetro correto implica em 6 caracteres.
+     * Ausência de parâmetro correto implica em 12 caracteres.
      */
     public static void main(String[] args) {
         SecureRandom senha = new SecureRandom();
