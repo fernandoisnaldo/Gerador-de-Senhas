@@ -1,6 +1,10 @@
 # Gerador-de-Senhas
 Este programa em Java, por padrão gera uma senha de 12 caracteres contendo letras do alfabeto latino (caixa alta e caixa baixa) e números. Porém, o número de caracteres pode ser personalizado a seu gosto.
 
+**Observações preliminares:**
+
+1) Não renomeie os arquivos Senha.java ou Senha.class, a não ser que você saiba editar o código-fonte e compilar para adequar a classe ao nome do arquivo.
+
 **Como compilar:**
 
 1) Instale o OpenJDK ou o Oracle JDK: https://openjdk.java.net/install/
