@@ -14,7 +14,7 @@ Este programa por padrão gera uma senha de 12 caracteres contendo letras do alf
 
 1) Baixe o arquivo Senha.class. Se você preferir, pode gerar o .class a partir do procedimento de compilação.
 
-2) Digite java Senha.
+2) Digite **java Senha**.
 
 Para valores personalizados, digite um número inteiro após java Senha. (exemplo: **java Senha 20**)
 
