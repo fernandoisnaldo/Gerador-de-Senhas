@@ -31,7 +31,7 @@ public class Senha {
     public static void main(String[] args) {
         SecureRandom senha = new SecureRandom();
         //Define fator de aleatoriedade para reiniciar SecureRandom
-        byte randomcont=(byte)senha.nextInt(8);
+        byte random8=(byte)senha.nextInt(8);
         System.out.print("Senha:\n");
         try {
             //Personaliza quantidade de caracteres (requer parâmetro args[0])
@@ -39,8 +39,8 @@ public class Senha {
                 //Invoca método digitos e passa parâmetro aleatório
                 digitos((byte)senha.nextInt(62));
                 //Reinicia o SecureRandom a cada múltiplo de entre 7 e 14
-                if (a%(7+randomcont)==0) {
-                	randomcont=(byte)senha.nextInt(8);
+                if (a%(7+random8)==0) {
+                	random8=(byte)senha.nextInt(8);
                 	senha = new SecureRandom();
                 }
             }
