@@ -30,9 +30,9 @@ public class Senha {
      */
     public static void main(String[] args) {
         SecureRandom senha = new SecureRandom();
-        System.out.print("Senha:\n");
-	//Define fator de aleatoriedade para reiniciar SecureRandom
+        //Define fator de aleatoriedade para reiniciar SecureRandom
         byte randomcont=(byte)senha.nextInt(8);
+        System.out.print("Senha:\n");
         try {
             //Personaliza quantidade de caracteres (requer parâmetro args[0])
             for (int a=0;a<Integer.parseInt(args[0]);a++) {
