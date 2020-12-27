@@ -11,7 +11,9 @@ Este programa em Java, por padrão gera uma senha de 12 caracteres contendo letr
 
 1) Instale o OpenJDK ou o Oracle JDK: https://openjdk.java.net/install/
 
-2) Digite `javac Senha.java` para compilar.
+2) Baixe o arquivo Senha.java.
+
+3) Digite `javac Senha.java` para compilar.
 
 **Como executar:**
 
