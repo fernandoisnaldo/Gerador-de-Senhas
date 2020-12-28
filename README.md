@@ -1,11 +1,11 @@
 # Gerador-de-Senhas
 Este programa em Java, por padrão gera uma senha de 12 caracteres contendo letras do alfabeto latino (caixa alta e caixa baixa) e números. Porém, o número de caracteres pode ser personalizado a seu gosto.
 
-Este programa é disponibilizado em 2 versões.
+**Este programa é disponibilizado em 2 versões:**
 
-Senha.java executa todo o código de forma sequencial.
+1) `Senha.java` executa todo o código de forma sequencial.
 
-SenhaSMT.java executa o código de forma multiprocessada.
+2) `SenhaSMT.java` executa o código de forma multiprocessada.
 
 Você deve escolher um ou outro, você não precisa de ambos os programas.
 
