@@ -35,9 +35,9 @@ Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte (`
 
 **Problemas conhecidos**
 
-1) O SenhaSMT não pula linha ao final da execução, pois a partir do momento que uma nova thread é chamada não se tem controle da ordem de execução do código. Recomendamos opcionalmente a execução do comando `java SenhaSMT && echo ""`, para utilizar o shell para pular a linha manualmente.
+1) O SenhaSMT não pula linha ao final da execução, pois a partir do momento que uma nova thread é chamada não se tem controle da ordem de execução do código. Recomenda-se opcionalmente a execução do comando `java SenhaSMT && echo ""`, para utilizar o shell para pular a linha manualmente.
 
-Uma solução para este problema envolveria criar uma String para alocar caracteres para imprimir no println, porém parâmetros muito grandes podem desde aumentar o consumo de memória e até crashar o programa.
+Uma solução para este problema envolveria criar uma String para alocar caracteres para imprimir no println, porém isso não foi feito porque parâmetros muito grandes podem desde aumentar o consumo de memória e até crashar o programa.
 
 # Dicas para usuários de Linux:
 
