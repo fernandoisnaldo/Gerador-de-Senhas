@@ -7,7 +7,7 @@ Senha.java executa todo o código de forma sequencial.
 
 SenhaSMT.java executa o código de forma multiprocessada.
 
-Você deve escolher um ou outro, você não precisa de amboso s programas.
+Você deve escolher um ou outro, você não precisa de amboso os programas.
 
 **Observações preliminares:**
 
