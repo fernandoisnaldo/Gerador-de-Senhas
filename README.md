@@ -7,7 +7,7 @@ Este programa em Java, por padrão gera uma senha de 12 caracteres contendo letr
 
 2) `SenhaSMT.java` executa o código de forma multiprocessada. Sua compilação gera `SenhaSMT.class` e `SenhaSMT$1.class`
 
-Senha e SenhaSMT são programas que funcionam de forma independente e um não depende do outro.
+Senha e SenhaSMT são programas diferentes e um não depende do outro.
 
 **Observações preliminares:**
 
