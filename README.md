@@ -4,9 +4,10 @@ Este programa em Java, por padrão gera uma senha de 12 caracteres contendo letr
 Este programa é disponibilizado em 2 versões.
 
 Senha.java executa todo o código de forma sequencial.
+
 SenhaSMT.java executa o código de forma multiprocessada.
 
-Você deve escolher um ou outro, ambos os programas são independentes.
+Você deve escolher um ou outro, você não precisa de amboso s programas.
 
 **Observações preliminares:**
 
