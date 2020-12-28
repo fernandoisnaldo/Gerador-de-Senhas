@@ -33,6 +33,12 @@ Para valores personalizados, digite um número inteiro após java Senha. (exempl
 
 Dica: Algumas versões do OpenJDK permitem executar a partir do código-fonte (`java senha.java`), mas recomendo executar o bytecode .class por razões de melhor desempenho.
 
+**Problemas conhecidos**
+
+1) O SenhaSMT não pula linha ao final da execução, pois a partir do momento que uma nova thread é chamada não se tem controle do tempo de execução do código. Recomendamos a execução do comando com auxílio do `&& echo ""` para pular a linha manualmente.
+
+Uma solução para este problema envolveria criar uma String para alocar caracteres para imprimir no println, porém parâmetros muito grandes podem desde aumentar o consumo de memória e até crashar o programa.
+
 # Dicas para usuários de Linux:
 
 Em caso de lentidão/travamento para geração de valores pseudoaleatórios, considere a possibilidade de instalar e configurar o rng-tools, para melhorar velocidade de geração de entropia de qualidade.
