@@ -19,17 +19,15 @@ Senha e SenhaSMT são programas que funcionam de forma independente e um não de
 
 **Como compilar:**
 
-1) Instale o OpenJDK ou o Oracle JDK: https://openjdk.java.net/install/
+1) Instale e configure o OpenJDK ou o Oracle JDK: https://openjdk.java.net/install/
 
-2) Baixe o arquivo Senha.java.
-
-3) Digite `javac Senha.java` para compilar.
+2) Digite `javac Senha.java` para compilar a versão sequencial, ou `javac SenhaSMT.java` para compilar a versão multiprocessada.
 
 **Como executar:**
 
-1) Baixe o arquivo Senha.class. Se você preferir, pode gerar o .class a partir do procedimento de compilação.
+1) Instale e configure o Java Runtime de sua preferência
 
-2) Digite `java Senha` para executar Senha.class.
+2) Digite `java Senha` para executar.class ou `java SenhaSMT`para executar SenhaSMT.class.
 
 Para valores personalizados, digite um número inteiro após java Senha. (exemplo: `java Senha 20`)
 
