@@ -23,9 +23,11 @@ static int numproc;
 			numproc=1;
 			rep=12;
 		}
+		//abre vários processos para gerar caracteres
 		for (int a=0; a<numproc; a++) {
 			new Thread(mete).start();
 		}
+		//obtêm os caracteres restantes a partir de aritmética modular
 		for (int a=0;a<mod;a++){
 			digitos();
 		}
