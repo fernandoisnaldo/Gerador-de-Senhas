@@ -6,9 +6,11 @@ Este programa é disponibilizado em 2 versões.
 Senha.java executa todo o código de forma sequencial.
 SenhaSMT.java executa o código de forma multiprocessada.
 
+Você deve escolher um ou outro, ambos os programas são independentes.
+
 **Observações preliminares:**
 
-1) Não renomeie os arquivos Senha.java ou Senha.class, a não ser que você saiba editar o código-fonte e compilar para adequar a classe ao nome do arquivo.
+1) Não renomeie os arquivos .java ou .class, a não ser que você saiba editar o código-fonte e compilar para adequar a classe ao nome do arquivo.
 
 2) Configure as suas variáveis de ambiente para o JDK, caso o seu sistema operacional já não faça isso pra você: https://www.formaticabit.com/configurando-variaveis-de-ambiente-no-java/
 
