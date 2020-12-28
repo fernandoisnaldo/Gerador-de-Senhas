@@ -15,7 +15,7 @@ Você deve escolher um ou outro, você não precisa de ambos os programas.
 
 2) Configure as suas variáveis de ambiente para o JDK, caso o seu sistema operacional já não faça isso pra você: https://www.formaticabit.com/configurando-variaveis-de-ambiente-no-java/
 
-3) Não há garantias de multiprocessamento melhore o desempenho do gerador de senhas. A implementação do multiprocessamento, foi implementada no sentido de testar uma nova abordagem de imprimir os caracteres.
+3) Não há garantias de que o multiprocessamento melhore o desempenho do gerador de senhas, pois o pool de entropia normalmente é mais lento que o CPU.
 
 **Como compilar:**
 
