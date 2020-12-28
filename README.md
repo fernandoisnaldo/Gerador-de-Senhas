@@ -27,7 +27,7 @@ Senha e SenhaSMT são programas diferentes e um não depende do outro.
 
 1) Instale e configure o Java Runtime de sua preferência
 
-2) Digite `java Senha` para executar.class ou `java SenhaSMT`para executar SenhaSMT.class.
+2) Digite `java Senha` para executar Senha.class ou `java SenhaSMT`para executar SenhaSMT.class.
 
 Para valores personalizados, digite um número inteiro após java Senha. (exemplo: `java Senha 20`)
 
