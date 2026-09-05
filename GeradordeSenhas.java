@@ -54,6 +54,7 @@ public class GeradordeSenhas {
         }
         if (numchar<0 || varchar<0){
             System.out.println("Parâmetros não podem ser negativos");
+            System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
             if(varchar==0){
