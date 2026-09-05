@@ -45,7 +45,6 @@ public class GeradordeSenhas {
             System.out.println("A quantidade de parâmetros está incorreta");
             System.exit(0);
         }
-        //verifica se args[0] existe
         try {
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
