@@ -39,7 +39,7 @@ public class GeradordeSenhas {
                    System.exit(0);
                }
            } catch (Exception e){
-               System.out.println("Os parâmetro deve ser números");
+               System.out.println("Os parâmetro deve ser número");
            }
         }
         else if (args.length>2){
@@ -50,10 +50,10 @@ public class GeradordeSenhas {
         try {
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
-            System.out.println("Os parâmetro deve ser números");
+            System.out.println("Os parâmetro deve ser número");
         }
         if (numchar<0 || varchar<0){
-            System.out.println("Parâmetros não podem ser negativos");
+            System.out.println("O parâmetro não pode ser número negativo");
             System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
