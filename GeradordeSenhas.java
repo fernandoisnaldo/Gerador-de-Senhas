@@ -7,7 +7,7 @@ public class GeradordeSenhas {
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
                              
-                             Exemplos de execução: GeradordeSenhas [numero de caracteres] [variação de caracteres]
+                             Uso: GeradordeSenhas [numero de caracteres] [variação de caracteres]
                              
                              "GeradordeSenhas 12" emite 12 caracteres
                              "GeradordeSenhas 12 1" emite 12 números
