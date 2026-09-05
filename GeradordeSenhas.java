@@ -34,7 +34,6 @@ public class GeradordeSenhas {
                                """);
             System.exit(0);
         }
-        //verifica se args[1] existe e tenta usar o parâmetro numérico
         if (args.length<=2){
            try {
                if (args.length==2){
