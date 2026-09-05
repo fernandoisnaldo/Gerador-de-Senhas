@@ -62,7 +62,7 @@ public class GeradordeSenhas {
         }
         for (int contador=0;contador<numchar;contador++){
             if(varchar==0){
-                System.out.print((char)(numAleatorio.nextInt(93)+33));
+                System.out.print((char)(numAleatorio.nextInt(94)+33));
             }
             else if(varchar==1){
                 System.out.print(numAleatorio.nextInt(10));
