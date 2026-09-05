@@ -1,5 +1,4 @@
 import java.security.SecureRandom;
-import java.security.SecureRandom;
 public class GeradordeSenhas {
     static int numchar, opcao, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
