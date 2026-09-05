@@ -1,32 +1,40 @@
+package com.mycompany.geradordesenhas;
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static int numchar, opcao, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
+        //avisa que este programa precisa de parâmetro args[0]
         if(args.length<1){
-            System.out.println("Este programa requer pelo menos 1 parâmetro "
-                    + "numérico para ser executado.\n"
-                    + "\n"
-                    + "Exemplos de execução: GeradordeSenhas [numero de caracter"
-                    + "es] [variação de caracteres]\n\n"
-                    + "\"GeradordeSenhas 12\" emite 12 caracteres\n"
-                    + "\"GeradordeSenhas 12 1\" emite 12 números\n"
-                    + "\n"
-                    + "O parâmetro [variação de caracteres] é opcional\n"
-                    + "\n"
-                    + "\n[variação de caracteres] sem parâmetro ou com valor 0 "
-                    + "imprime todos os caracteres ASCII na faixa de 33 até 126\n"
-                    + "[variação de caracteres] 1 imprime só números\n"
-                    + "[variação de caracteres] 2 imprime só letras e números\n"
-                    + "\nExemplos:"
-                    + "\n\njava GeradordeSenhas.java 12\n"
-                    + "h7H/a?.&!U&0"
-                    + "\n\njava GeradordeSenhas.java 12 1\n"
-                    + "559457135144"
-                    + "\n\njava GeradordeSenhas.java 12 2\n"
-                    + "LmKXE26jpFZs");
+            System.out.println("""
+                             Este programa requer pelo menos 1 parâmetro numérico para ser executado.
+                             
+                             Exemplos de execução: GeradordeSenhas [numero de caracteres] [variação de caracteres]
+                             
+                             "GeradordeSenhas 12" emite 12 caracteres
+                             "GeradordeSenhas 12 1" emite 12 números
+                             
+                             O parâmetro [variação de caracteres] é opcional
+                             
+                             
+                             [variação de caracteres] sem parâmetro ou com valor 0 imprime todos os caracteres ASCII na faixa de 33 até 126
+                             [variação de caracteres] 1 imprime só números
+                             [variação de caracteres] 2 imprime só letras e números
+                             
+                             Exemplos:
+                             
+                             java GeradordeSenhas.java 12
+                             h7H/a?.&!U&0
+                             
+                             java GeradordeSenhas.java 12 1
+                             559457135144
+                             
+                             java GeradordeSenhas.java 12 2
+                             LmKXE26jpFZs
+                               """);
             System.exit(0);
         }
+        //verifica se args[1] existe e tenta usar o parâmetro numérico
         if (args.length<=2){
            try {
                if (args.length==2){
@@ -45,10 +53,11 @@ public class GeradordeSenhas {
             System.out.println("A quantidade de parâmetros está incorreta");
             System.exit(0);
         }
+        //verifica se args[0] existe
         try {
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
-            System.out.println("O parâmetro deve ser número");
+            System.out.println("Os parâmetro deve ser número");
             System.exit(0);
         }
         if (numchar<1){
@@ -57,7 +66,7 @@ public class GeradordeSenhas {
             System.exit(0);
         }
         if(varchar<0){
-            System.out.println("Variedade de caracteres não pode ser negativo");
+            System.out.println("Variação de caracteres não pode ser negativo");
             System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
