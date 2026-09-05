@@ -69,21 +69,21 @@ public class GeradordeSenhas {
         }
         for (int contador=0;contador<numchar;contador++){
             if(varchar==0){
-                System.out.print((char)(numAleatorio.nextInt(94)+33));
+                System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
             else if(varchar==1){
-                System.out.print(numAleatorio.nextInt(10));
+                System.out.print(numAleatorio.nextInt(10)); //emite caractere numérico aleatório
             }
             else if (varchar==2){
                 int base62 = numAleatorio.nextInt(62);
                 if (base62<10){
-                    System.out.print(base62);
+                    System.out.print(base62); //emite 0 a 9
                 }
                 else if(base62<36){
-                    System.out.print((char)(base62+55));
+                    System.out.print((char)(base62+55)); //emite A-Z
                 }
                 else {
-                    System.out.print((char)(base62+61));
+                    System.out.print((char)(base62+61)); //emite a-z
                 }
             }
         }
