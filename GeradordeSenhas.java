@@ -1,6 +1,6 @@
 import java.security.SecureRandom;
 public class GeradordeSenhas {
-    static int numchar, opcao, varchar=0;
+    static int numchar, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
         if(args.length<1){
@@ -69,7 +69,7 @@ public class GeradordeSenhas {
         }
         for (int contador=0;contador<numchar;contador++){
             if(varchar==0){
-                System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
+                System.out.print((char)(numAleatorio.nextInt(93)+33)); //emite caractere ASCII aleatório
             }
             else if(varchar==1){
                 System.out.print(numAleatorio.nextInt(10)); //emite caractere numérico aleatório
