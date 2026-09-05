@@ -1,10 +1,8 @@
-package com.mycompany.geradordesenhas;
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static int numchar, opcao, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
-        //avisa que este programa precisa de parâmetro args[0]
         if(args.length<1){
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
