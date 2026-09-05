@@ -48,7 +48,7 @@ public class GeradordeSenhas {
         try {
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
-            System.out.println("Os parâmetro deve ser número");
+            System.out.println("O parâmetro deve ser número");
             System.exit(0);
         }
         if (numchar<1){
@@ -57,7 +57,7 @@ public class GeradordeSenhas {
             System.exit(0);
         }
         if(varchar<0){
-            System.out.println("Variação de caracteres não pode ser negativo");
+            System.out.println("Variedade de caracteres não pode ser negativo");
             System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
