@@ -1,4 +1,5 @@
 import java.security.SecureRandom;
+import java.security.SecureRandom;
 public class GeradordeSenhas {
     static int numchar, opcao, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
@@ -39,8 +40,8 @@ public class GeradordeSenhas {
                    System.exit(0);
                }
            } catch (Exception e){
-               System.out.println("Os parâmetro deve ser número");
-
+               System.out.println("O parâmetro deve ser número");
+               System.exit(0);
            }
         }
         else if (args.length>2){
@@ -54,8 +55,12 @@ public class GeradordeSenhas {
             System.out.println("Os parâmetro deve ser número");
             System.exit(0);
         }
-        if (numchar<0 || varchar<0){
-            System.out.println("O parâmetro não pode ser número negativo");
+        if (numchar<1){
+            System.out.println("Número de caracteres não pode ser número menor que 1");
+            System.exit(0);
+        }
+        if(varchar<0){
+            System.out.println("Variação de caracteres não pode ser negativo");
             System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
