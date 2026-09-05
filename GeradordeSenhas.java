@@ -1,4 +1,3 @@
-package com.mycompany.geradordesenhas;
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static int numchar, opcao, varchar=0;
