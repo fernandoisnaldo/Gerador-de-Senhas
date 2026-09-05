@@ -53,12 +53,11 @@ public class GeradordeSenhas {
         try {
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
-            System.out.println("Os parâmetro deve ser número");
+            System.out.println("O parâmetro deve ser número");
             System.exit(0);
         }
         if (numchar<1){
-            System.out.println("Número de caracteres não pode ser número menor "
-                    + "que 1");
+            System.out.println("Número de caracteres não pode ser número menor que 1");
             System.exit(0);
         }
         if(varchar<0){
