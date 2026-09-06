@@ -1,9 +1,9 @@
-##Gerador de Senhas do Fernando Isnaldo.
+## Gerador de Senhas do Fernando Isnaldo.
 
 Requer OpenJDK 15 ou superior.
 
 
-#Principais características: 
+# Principais características: 
 1) Uso da classe SecureRandom, para gerar números aleatórios com a melhor qualidade criptográfica.
 2) Nenhuma String ou StringBuilder é utilizada para acumular caracteres, os valores são impressos diretamente e se necessário com offsets para caracteres imprimveis da tabela ASCII.
    (isso é mais uma curiosidade técnica do que uma utilidade prática)
