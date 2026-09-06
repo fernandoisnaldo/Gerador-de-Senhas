@@ -2,7 +2,7 @@
 
 Requer OpenJDK 15 ou superior.
 
-O processo de compilação é opcional.
+O processo de compilação para gerar bytecode é opcional.
 
 
 # Principais características: 
