@@ -8,7 +8,7 @@ Requer OpenJDK 15 ou superior.
 2) Nenhuma String ou StringBuilder é utilizada para acumular caracteres. (isso é meramente uma curiosidade técnica)
 3) Os valores são impressos diretamente, de forma homogênea e se necessário com offsets para caracteres imprimíveis da tabela ASCII.
 4) É uma ferramenta de interface de linhas de comando.
-5) Permite definir a quantidade de caracteres gerados.
+5) Permite definir a quantidade personalidada de caracteres gerados.
 6) Permite gerar combinações numéricas, alfanuméricas ou de caracteres da tabela ASCII.
 
 # Comando para executar:
