@@ -12,4 +12,4 @@ Requer OpenJDK 15 ou superior.
 6) Permite gerar combinações numéricas, alfanuméricas ou de caracteres da tabela ASCII.
 
 # Para executar:
-```java GeradordeSenhas.java
+`java GeradordeSenhas.java`
