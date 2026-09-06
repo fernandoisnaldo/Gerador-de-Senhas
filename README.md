@@ -11,4 +11,5 @@ Requer OpenJDK 15 ou superior.
 5) Permite definir a quantidade de caracteres gerados.
 6) Permite gerar combinações numéricas, alfanuméricas ou de caracteres da tabela ASCII.
 
-Para executar, simplesmente digite "java GeradordeSenhas.java" e leia as instruções de uso aplicáveis.
+# Para executar:
+java GeradordeSenhas.java
