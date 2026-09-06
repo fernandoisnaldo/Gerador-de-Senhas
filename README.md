@@ -1,3 +1,5 @@
+Gerador de Senhas do Fernando Isnaldo.
+
 Requer OpenJDK 15 ou superior.
 
 
