@@ -5,8 +5,8 @@ Requer OpenJDK 15 ou superior.
 
 # Principais características: 
 1) Uso da classe SecureRandom, para gerar números aleatórios com a melhor qualidade criptográfica.
-2) Nenhuma String ou StringBuilder é utilizada para acumular caracteres, os valores são impressos diretamente e se necessário com offsets para caracteres imprimíveis da tabela ASCII.
-   (isso é mais uma curiosidade técnica do que uma utilidade prática)
+2) Nenhuma String ou StringBuilder é utilizada para acumular caracteres. (isso é meramente uma curiosidade técnica)
+3) os valores são impressos diretamente, de forma homogênea em e se necessário com offsets para caracteres imprimíveis da tabela ASCII.
 4) É uma ferramenta de interface de linhas de comando.
 5) Permite definir a quantidade de caracteres gerados.
 6) Permite gerar combinações numéricas, alfanuméricas ou de caracteres da tabela ASCII.
