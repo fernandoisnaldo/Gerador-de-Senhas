@@ -57,7 +57,7 @@ public class GeradordeSenhas {
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
             else if(varchar==1){
-                System.out.print(numAleatorio.nextInt(10)); //emite caractere numérico decimal aleatório
+                System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
             }
             else if (varchar==2){
                 int base62 = numAleatorio.nextInt(62); //seleciona caractere alfanérico aleatório
