@@ -11,7 +11,7 @@ O processo de compilação para gerar bytecode é opcional.
 3) O usuário define a quantidade personalidada de caracteres gerados.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
 5) Todo caractere tem exatamente a mesma chance de ser gerada no terminal.
-6) É 100% software livre, pode ser modificado, usado e redistribuído nos termos da GPL v3.
+6) É software livre, pode ser modificado, usado e redistribuído nos termos da GPL v3.
 
 # Instruções de uso
 Para ler as instruções de uso, execute o comando: `java GeradordeSenhas` 
