@@ -24,14 +24,18 @@ O parâmetro [variação de caracteres] é opcional.
 
 
 Emitir 12 caracteres ASCII: 
+
 `java GeradordeSenhas.java 12`: h7H/a?.&!U&0
 
 Emitir 12 números decimais: 
+
 `java GeradordeSenhas.java 12 1`: 559457135144
 
 Emitir 12 caracteres alfanuméricos: 
+
 `java GeradordeSenhas.java 12 2`: LmKXE26jpFZs
 
 Emitir 12 números hexadecimais: 
+
 `java GeradordeSenhas.java 12 3`: d5e0a8669e74
 
