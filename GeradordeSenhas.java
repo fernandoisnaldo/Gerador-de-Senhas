@@ -41,7 +41,7 @@ public class GeradordeSenhas {
         }
         try {
             if(args.length==2){
-                varchar=Integer.parseInt(args[1]); //recebe o 2º parâmetro primeiro (caso ele exista)
+                varchar=Integer.parseInt(args[1]); //recebe o 2º parâmetro (caso ele exista)
             }
             numchar=Integer.parseInt(args[0]); //recebe o 1º parâmetro
         } catch (Exception e){
