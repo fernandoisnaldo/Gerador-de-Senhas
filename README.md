@@ -12,30 +12,4 @@ O processo de compilação para gerar bytecode é opcional.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
 
 # Instruções de uso:
-Este programa requer pelo menos 1 parâmetro numérico para ser executado.
-
-Uso: `java GeradordeSenhas [numero de caracteres] [variação de caracteres]`
-
-`java GeradordeSenhas 12` emite 12 caracteres.
-
-`java GeradordeSenhas 12 1` emite 12 números.
-
-O parâmetro [variação de caracteres] é opcional.
-
-
-Emitir 12 caracteres ASCII: 
-
-`java GeradordeSenhas.java 12`: h7H/a?.&!U&0
-
-Emitir 12 números decimais: 
-
-`java GeradordeSenhas.java 12 1`: 559457135144
-
-Emitir 12 caracteres alfanuméricos: 
-
-`java GeradordeSenhas.java 12 2`: LmKXE26jpFZs
-
-Emitir 12 números hexadecimais: 
-
-`java GeradordeSenhas.java 12 3`: d5e0a8669e74
-
+`java GeradordeSenhas` 
