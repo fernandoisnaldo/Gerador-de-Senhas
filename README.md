@@ -22,12 +22,6 @@ Uso: `java GeradordeSenhas [numero de caracteres] [variação de caracteres]`
 
 O parâmetro [variação de caracteres] é opcional.
 
-[variação de caracteres] sem parâmetro ou com valor 0 imprime caracteres ASCII na faixa de 33 até 126.
-[variação de caracteres] com valor 1 imprime números decimais.
-[variação de caracteres] com valor 2 imprime letras e números.
-[variação de caracteres] com valor 3 imprime números hexadecimais.
-
-Exemplos de uso:
 
 Emitir 12 caracteres ASCII:
 `java GeradordeSenhas.java 12`
