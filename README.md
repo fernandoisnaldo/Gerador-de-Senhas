@@ -12,4 +12,4 @@ O processo de compilação para gerar bytecode é opcional.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
 
 # Instruções de uso:
-`java GeradordeSenhas` 
+Para ler as instruções de uso, execute o comando: `java GeradordeSenhas` 
