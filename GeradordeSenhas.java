@@ -73,7 +73,7 @@ public class GeradordeSenhas {
                 }
             }
             else if (varchar==3){
-                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite hexadecimal
+                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite caractere hexadecimal
             }
             else {
                 System.out.println("O parâmetro [variação de caracteres] está incorreto");
