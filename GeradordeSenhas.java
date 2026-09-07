@@ -33,7 +33,7 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 2
                              LmKXE26jpFZs
                              
-                             Emitir 12 caracteres hexadecimais:  
+                             Emitir 12 números hexadecimais:  
                              java GeradordeSenhas.java 12 3
                              d5e0a8669e74
                                """);
@@ -57,7 +57,7 @@ public class GeradordeSenhas {
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
             else if(varchar==1){
-                System.out.print(numAleatorio.nextInt(10)); //emite caractere numérico aleatório
+                System.out.print(numAleatorio.nextInt(10)); //emite caractere numérico decimal aleatório
             }
             else if (varchar==2){
                 int base62 = numAleatorio.nextInt(62); //seleciona caractere alfanérico aleatório
@@ -72,7 +72,7 @@ public class GeradordeSenhas {
                 }
             }
             else if (varchar==3){
-                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite caractere hexadecimal
+                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite número hexadecimal aleatório
             }
             else {
                 System.out.println("O parâmetro [variação de caracteres] está incorreto");
