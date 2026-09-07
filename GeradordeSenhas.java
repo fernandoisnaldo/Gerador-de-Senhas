@@ -9,17 +9,17 @@ public class GeradordeSenhas {
                              
                              Uso: GeradordeSenhas [numero de caracteres] [variação de caracteres]
                              
-                             "GeradordeSenhas 12" emite 12 caracteres
-                             "GeradordeSenhas 12 1" emite 12 números
+                             "GeradordeSenhas 12" emite 12 caracteres.
+                             "GeradordeSenhas 12 1" emite 12 números.
                              
-                             O parâmetro [variação de caracteres] é opcional
+                             O parâmetro [variação de caracteres] é opcional.
                              
-                             [variação de caracteres] sem parâmetro ou com valor 0 imprime caracteres ASCII na faixa de 33 até 126
-                             [variação de caracteres] com valor 1 imprime só números decimais
-                             [variação de caracteres] com valor 2 imprime só letras e números
-                             [variação de caracteres] com valor 3 imprime números hexadecimais
+                             [variação de caracteres] sem parâmetro ou com valor 0 imprime caracteres ASCII na faixa de 33 até 126.
+                             [variação de caracteres] com valor 1 imprime só números decimais.
+                             [variação de caracteres] com valor 2 imprime só letras e números.
+                             [variação de caracteres] com valor 3 imprime números hexadecimais.
                                
-                             Exemplos:
+                             Exemplos de uso:
                              
                              Emitir 12 caracteres ASCII:
                              java GeradordeSenhas.java 12 
