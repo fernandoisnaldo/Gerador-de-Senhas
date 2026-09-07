@@ -8,7 +8,7 @@ O processo de compilação para gerar bytecode é opcional.
 # Principais características: 
 1) Uso da classe SecureRandom, para gerar números aleatórios com a melhor qualidade criptográfica.
 2) Nenhuma String, StringBuilder ou array de tipo primtivo é utilizado para acumular caracteres. Os valores são impressos diretamente, de forma homogênea e se aplicável, com offsets para caracteres imprimíveis da tabela ASCII.
-4) É uma ferramenta de interface de linhas de comando.
+4) É uma ferramenta de interface de linhas de comando, que recebe parâmetros diretamente ao iniciar a execução.
 5) O usuário define a quantidade personalidada de caracteres gerados.
 6) O usuário pode escolher gerar combinações numéricas, alfanuméricas ou de caracteres da tabela ASCII.
 
