@@ -1,8 +1,8 @@
 import java.security.SecureRandom;
 public class GeradordeSenhas {
-    static int numchar, varchar=0;
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
+    	int numchar=-1, varchar=0;
         if(args.length<1 || args[0].equals("-h") || args[0].equals("--help")){
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
@@ -72,7 +72,7 @@ public class GeradordeSenhas {
                 }
             }
             else if (varchar==3){
-                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite número hexadecimal aleatório
+                System.out.print(Integer.toHexString(numAleatorio.nextInt(16))); //emite número hexadecimal aleatório
             }
             else {
                 System.out.println("O parâmetro [variação de caracteres] está incorreto");
