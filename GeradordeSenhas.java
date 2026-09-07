@@ -63,7 +63,7 @@ public class GeradordeSenhas {
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
             }
             else if (varchar==2){
-                int base62 = numAleatorio.nextInt(62); //seleciona caractere alfanérico aleatório
+                int base62 = numAleatorio.nextInt(62); //seleciona caractere alfanumérico aleatório
                 if (base62<10){
                     System.out.print(base62); //emite 0 a 9
                 }
