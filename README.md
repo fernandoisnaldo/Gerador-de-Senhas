@@ -14,10 +14,10 @@ O processo de compilação para gerar bytecode é opcional.
 # Instruções de uso:
 Este programa requer pelo menos 1 parâmetro numérico para ser executado.
 
-Uso: GeradordeSenhas [numero de caracteres] [variação de caracteres]
+Uso: `java GeradordeSenhas [numero de caracteres] [variação de caracteres]`
 
-"GeradordeSenhas 12" emite 12 caracteres.
-"GeradordeSenhas 12 1" emite 12 números.
+`java GeradordeSenhas 12` emite 12 caracteres.
+`java GeradordeSenhas 12 1` emite 12 números.
 
 O parâmetro [variação de caracteres] é opcional.
 
