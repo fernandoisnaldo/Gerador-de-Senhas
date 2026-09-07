@@ -16,55 +16,41 @@ public class GeradordeSenhas {
                              
                              
                              [variação de caracteres] sem parâmetro ou com valor 0 imprime todos os caracteres ASCII na faixa de 33 até 126
-                             [variação de caracteres] com valor 1 imprime só números
+                             [variação de caracteres] com valor 1 imprime só números decimais
                              [variação de caracteres] com valor 2 imprime só letras e números
-                             
+                             [variação de caracteres] com valor 3 imprime números hexadecimais
+                               
                              Exemplos:
 
                              Emitir 12 caracteres ASCII:
                              java GeradordeSenhas.java 12 
                              h7H/a?.&!U&0
 
-                             Emitir 12 números:
+                             Emitir 12 números decimais:
                              java GeradordeSenhas.java 12 1
                              559457135144
 
                              Emitir 12 caracteres alfanuméricos:
                              java GeradordeSenhas.java 12 2
                              LmKXE26jpFZs
+                             
+                             Emitir 12 caracteres hexadecimais:  
+                             java GeradordeSenhas.java 12 3
+                             d5e0a8669e74
                                """);
             System.exit(0);
         }
-        if (args.length<=2){
-           try {
-               if (args.length==2){
-                   varchar=Integer.parseInt(args[1]); 
-               }
-               if(varchar>2){
-                   System.out.println("O segundo parâmetro está errado");
-                   System.exit(0);
-               }
-           } catch (Exception e){
-               System.out.println("O parâmetro deve ser número");
-               System.exit(0);
-           }
-        }
-        else if (args.length>2){
-            System.out.println("A quantidade de parâmetros está incorreta");
-            System.exit(0);
-        }
         try {
+            if(args.length==2){
+                varchar=Integer.parseInt(args[1]);
+            }
             numchar=Integer.parseInt(args[0]);
         } catch (Exception e){
-            System.out.println("O parâmetro deve ser número");
+            System.out.println("Os parâmetros só aceitam números");
             System.exit(0);
         }
         if (numchar<1){
-            System.out.println("Número de caracteres não pode ser número menor que 1");
-            System.exit(0);
-        }
-        if(varchar<0){
-            System.out.println("Variação de caracteres não pode ser negativo");
+            System.out.println("O parâmetro [numero de caracteres] não pode ser menor que 1");
             System.exit(0);
         }
         for (int contador=0;contador<numchar;contador++){
@@ -85,6 +71,13 @@ public class GeradordeSenhas {
                 else {
                     System.out.print((char)(base62+61)); //emite a-z
                 }
+            }
+            else if (varchar==3){
+                System.out.print(""+Integer.toHexString(numAleatorio.nextInt(16))); //emite hexadecimal
+            }
+            else {
+                System.out.println("O parâmetro [variação de caracteres] está incorreto");
+                System.exit(0);
             }
         }
         System.out.println("");
