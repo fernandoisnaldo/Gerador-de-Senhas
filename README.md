@@ -14,4 +14,4 @@ O processo de compilação para gerar bytecode é opcional.
 6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3.
 
 # Instruções de uso
-Para ler as instruções de uso, execute o comando: `java GeradordeSenhas` 
+Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
