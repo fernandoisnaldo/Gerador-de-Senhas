@@ -10,6 +10,7 @@ O processo de compilação para gerar bytecode é opcional.
 2) É uma ferramenta de interface de linhas de comando, que recebe parâmetros diretamente ao iniciar a execução.
 3) O usuário define a quantidade personalidada de caracteres gerados.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
+5) Todo caractere tem exatamente a mesma chance de ser gerada no terminal.
 
 # Instruções de uso:
 Para ler as instruções de uso, execute o comando: `java GeradordeSenhas` 
