@@ -41,9 +41,9 @@ public class GeradordeSenhas {
         }
         try {
             if(args.length==2){
-                varchar=Integer.parseInt(args[1]);
+                varchar=Integer.parseInt(args[1]); //recebe o 2º parâmetro primeiro (caso ele exista)
             }
-            numchar=Integer.parseInt(args[0]);
+            numchar=Integer.parseInt(args[0]); //recebe o 1º parâmetro
         } catch (Exception e){
             System.out.println("Os parâmetros devem ser números inteiros");
             System.exit(0);
