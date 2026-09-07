@@ -46,11 +46,11 @@ public class GeradordeSenhas {
             numchar=Integer.parseInt(args[0]); //recebe o 1º parâmetro
         } catch (Exception e){
             System.out.println("Os parâmetros devem ser números inteiros");
-            System.exit(0);
+            System.exit(1);
         }
         if (numchar<1){
             System.out.println("O parâmetro [numero de caracteres] não pode ser menor que 1");
-            System.exit(0);
+            System.exit(1);
         }
         for (int contador=0;contador<numchar;contador++){
             if(varchar==0){
@@ -76,7 +76,7 @@ public class GeradordeSenhas {
             }
             else {
                 System.out.println("O parâmetro [variação de caracteres] está incorreto");
-                System.exit(0);
+                System.exit(1);
             }
         }
         System.out.println("");
