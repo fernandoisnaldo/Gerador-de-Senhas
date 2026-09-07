@@ -37,10 +37,10 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 3
                              d5e0a8669e74
                                """);
-            if(args.length>2 ){
-            	System.exit(1);
+            if(args.length<2){
+                System.exit(0);
             }
-            System.exit(0);
+            System.exit(1);
         }
         try {
             if(args.length==2){
