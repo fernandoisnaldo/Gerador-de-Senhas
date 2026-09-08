@@ -21,7 +21,7 @@ public class GeradordeSenhas {
                              Para emitir números decimais, o parâmetro de variação pode ser: -n, --num ou --decimal.
                              Para emitir números hexadecimais, o parâmetro de variação pode ser: -x, --hexa ou --hexadecimal
                              
-                             Em caso de ausência do parâmetro [variação de caracteres], este gerador de senhas por padrão emite caracteres ASCII.
+                             Em caso de ausência do parâmetro [variação de caracteres], este programa por padrão emite caracteres ASCII.
                              
                                
                              Exemplos de uso:
