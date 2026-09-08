@@ -2,7 +2,7 @@ import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
-    	long numchar=-1l;
+    	long numchar=-1L;
         if(args.length<1 || args.length>2 || args[0].equals("-h") || args[0].equals("--help")){
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
