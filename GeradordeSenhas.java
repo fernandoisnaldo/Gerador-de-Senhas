@@ -16,12 +16,12 @@ public class GeradordeSenhas {
                              
                              O parâmetro [variação de caracteres] é opcional, mas se for usado, deve ser obrigatoriamente o segundo parâmetro.
                              
-                             Para emitir caracteres ASCII, o parâmetro de variação pode ser: -a, --ascii.
+                             Para emitir caracteres ASCII, o parâmetro de variação pode ser: -a ou --ascii.
                              Para emitir caracteres alfanuméricos, o parâmetro de variação pode ser: -an, --alfanum ou --alfanumerico
-                             Para emitir números decimais, o parâmetro de variação ser: -n, --num ou --decimal.
+                             Para emitir números decimais, o parâmetro de variação pode ser: -n, --num ou --decimal.
                              Para emitir números hexadecimais, o parâmetro de variação pode ser: -x, --hexa ou --hexadecimal
                              
-                             Em caso de ausência do segundo parâmetro, este gerador de senhas por padrão emite caracteres ASCII.
+                             Em caso de ausência do parâmetro [variação de caracteres], este gerador de senhas por padrão emite caracteres ASCII.
                              
                                
                              Exemplos de uso:
