@@ -6,7 +6,7 @@ O processo de compilação para gerar bytecode é opcional.
 
 
 # Principais características
-1) Uso da classe SecureRandom, para gerar números aleatórios com a melhor qualidade criptográfica.
+1) Uso da classe SecureRandom, para gerar números aleatórios com ótima qualidade criptográfica.
 2) É uma ferramenta de interface de linhas de comando, que recebe parâmetros diretamente ao iniciar a execução.
 3) O usuário define a quantidade de caracteres gerados.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
