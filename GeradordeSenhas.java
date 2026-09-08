@@ -53,11 +53,11 @@ public class GeradordeSenhas {
             System.out.println("O primeiro parâmetro deve ser um número inteiro razoável");
             System.exit(1);
         }
-        if (numchar<1l){
+        if (numchar<1L){
             System.out.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
-        for (long contador=0l;contador<numchar;contador++){
+        for (long contador=0L;contador<numchar;contador++){
             if(args.length<2 || args[1].equals("-a") || args[1].equals("--ascii") ){
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
