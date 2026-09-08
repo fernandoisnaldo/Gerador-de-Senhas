@@ -10,7 +10,7 @@ public class GeradordeSenhas {
                              Uso: java GeradordeSenhas [numero de caracteres] [variação de caracteres]
                              
                              "GeradordeSenhas 12" emite 12 caracteres.
-                             "GeradordeSenhas 12 1" emite 12 números.
+                             "GeradordeSenhas 12 -n" emite 12 números.
                              
                              O parâmetro [numero de caracteres] deve ser um número e indica quantos caracteres a sua senha terá, a ausência deste parâmetro imprime esta mensagem de ajuda.
                              
