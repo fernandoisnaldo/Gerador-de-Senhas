@@ -7,12 +7,12 @@ public class GeradordeSenhas {
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
                              
-                             Uso: java GeradordeSenhas [numero de caracteres] [variação de caracteres]
+                             Uso: java GeradordeSenhas [número de caracteres] [variação de caracteres]
                              
                              "GeradordeSenhas 12" emite 12 caracteres.
                              "GeradordeSenhas 12 -n" emite 12 números.
                              
-                             O parâmetro [numero de caracteres] deve ser um número e indica quantos caracteres a sua senha terá, a ausência deste parâmetro imprime esta mensagem de ajuda.
+                             O parâmetro [número de caracteres] deve ser um número e indica quantos caracteres a sua senha terá, a ausência deste parâmetro imprime esta mensagem de ajuda.
                              
                              O parâmetro [variação de caracteres] é opcional, mas se for usado, deve ser obrigatoriamente o segundo parâmetro.
                              
