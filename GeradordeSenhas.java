@@ -2,7 +2,8 @@ import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
     public static void main(String[] args) {
-    	int numchar=-1, varchar=0;
+    	long numchar=-1l;
+    	int varchar=0;
         if(args.length<1 || args.length>2 || args[0].equals("-h") || args[0].equals("--help")){
             System.out.println("""
                              Este programa requer pelo menos 1 parâmetro numérico para ser executado.
@@ -46,16 +47,16 @@ public class GeradordeSenhas {
             if(args.length==2){
                 varchar=Integer.parseInt(args[1]); //recebe o 2º parâmetro (caso ele exista)
             }
-            numchar=Integer.parseInt(args[0]); //recebe o 1º parâmetro
+            numchar=Long.parseLong(args[0]); //recebe o 1º parâmetro
         } catch (NumberFormatException e){
-            System.out.println("Os parâmetros devem ser números inteiros");
+            System.out.println("Os parâmetros devem ser números inteiros e devem ter tamanho razoável");
             System.exit(1);
         }
         if (numchar<1){
             System.out.println("O parâmetro [numero de caracteres] não pode ser menor que 1");
             System.exit(1);
         }
-        for (int contador=0;contador<numchar;contador++){
+        for (long contador=0l;contador<numchar;contador++){
             if(varchar==0){
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
