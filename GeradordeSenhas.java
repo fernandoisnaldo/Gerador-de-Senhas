@@ -17,7 +17,7 @@ public class GeradordeSenhas {
 
                              Opções de [variação de caracteres]:
                              -a, --ascii    imprime caracteres ASCII (faixa 33 a 126)
-                             -an, --alfanum, alfanumerico    imprime caracteres alfanuméricos
+                             -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
                              
