@@ -5,25 +5,22 @@ public class GeradordeSenhas {
     	long numchar=-1L;
         if(args.length<1 || args.length>2 || args[0].equals("-h") || args[0].equals("--help")){
             System.out.println("""
-                             Este programa requer pelo menos 1 parâmetro numérico para ser executado.
-                             
                              Uso: java GeradordeSenhas [número de caracteres] [variação de caracteres]
+
+                             Este programa aceita no máximo 2 parâmetros, e estes devem estar na ordem indicada por esta mensagem de ajuda
                              
-                             "GeradordeSenhas 12" emite 12 caracteres.
-                             "GeradordeSenhas 12 -n" emite 12 números.
-                             
-                             O parâmetro [número de caracteres] deve ser um número e indica quantos caracteres a sua senha terá, a ausência deste parâmetro imprime esta mensagem de ajuda.
+                             O parâmetro [número de caracteres] é estritamente um número e indica quantos caracteres a sua senha terá.
+                             A ausência deste parâmetro resulta nesta mensagem de ajuda.
                              
                              O parâmetro [variação de caracteres] é opcional, mas se for usado, deve ser obrigatoriamente o segundo parâmetro.
+                             Caso este parâmetro não seja utilizado, o programa por padrão imprime caracteres ASCII (faixa 33 a 126).
+
+                             Opções de [variação de caracteres]:
+                             -a, --ascii    imprime caracteres ASCII (faixa 33 a 126)
+                             -an, --alfanum, alfanumerico    imprime caracteres alfanuméricos
+                             -n, --num, --decimal    imprime números decimais
+                             -x, --hexa, --hexadecimal    imprime números hexadecimais
                              
-                             Para emitir caracteres ASCII, o parâmetro de variação pode ser: -a ou --ascii.
-                             Para emitir caracteres alfanuméricos, o parâmetro de variação pode ser: -an, --alfanum ou --alfanumerico
-                             Para emitir números decimais, o parâmetro de variação pode ser: -n, --num ou --decimal.
-                             Para emitir números hexadecimais, o parâmetro de variação pode ser: -x, --hexa ou --hexadecimal
-                             
-                             Em caso de ausência do parâmetro [variação de caracteres], este programa por padrão emite caracteres ASCII.
-                             
-                               
                              Exemplos de uso:
                              
                              Emitir 12 caracteres ASCII:
