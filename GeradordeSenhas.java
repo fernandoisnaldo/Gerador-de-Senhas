@@ -53,11 +53,11 @@ public class GeradordeSenhas {
         try {
             numchar=Long.parseLong(args[0]); //recebe o 1º parâmetro
         } catch (NumberFormatException e){
-            System.out.println("O primeiro parâmetro deve ser um número inteiro razoável");
+            System.err.println("O primeiro parâmetro deve ser um número inteiro razoável");
             System.exit(1);
         }
         if (numchar<1L){
-            System.out.println("O primeiro parâmetro não pode ser menor que 1");
+            System.err.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
         for (long contador=0L;contador<numchar;contador++){
@@ -83,7 +83,7 @@ public class GeradordeSenhas {
                 System.out.print(Integer.toHexString(numAleatorio.nextInt(16))); //emite número hexadecimal aleatório
             }
             else {
-                System.out.println("O segundo parâmetro está incorreto, use --help no primeiro parâmetro para ler as opções");
+                System.err.println("O segundo parâmetro está incorreto, use --help no primeiro parâmetro para ler as opções");
                 System.exit(1);
             }
         }
