@@ -12,8 +12,7 @@ public class GeradordeSenhas {
                              O parâmetro [número de caracteres] é estritamente um número e indica quantos caracteres a sua senha terá.
                              A ausência deste parâmetro resulta nesta mensagem de ajuda.
                              
-                             O parâmetro [variação de caracteres] é opcional, mas se for usado, deve ser obrigatoriamente o segundo parâmetro.
-                             Caso este parâmetro não seja utilizado, o programa por padrão imprime caracteres ASCII (faixa 33 a 126).
+                             O parâmetro [variação de caracteres] é opcional. Caso este parâmetro não seja utilizado, o programa por padrão imprime caracteres ASCII (faixa 33 a 126).
 
                              Opções de [variação de caracteres]:
                              -a, --ascii    imprime caracteres ASCII (faixa 33 a 126)
