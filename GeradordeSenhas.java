@@ -13,7 +13,7 @@ public class GeradordeSenhas {
             System.out.println("""
                              Uso: java GeradordeSenhas [número de caracteres] [variação de caracteres]
 
-                             Este programa aceita no máximo 2 parâmetros, e estes devem estar na ordem indicada por esta mensagem de ajuda
+                             Este programa aceita no máximo 2 parâmetros, e estes devem estar na ordem indicada por esta mensagem de ajuda.
                              
                              O parâmetro [número de caracteres] é estritamente um número e indica quantos caracteres a sua senha terá.
                              Caso este parâmetro não seja utilizado, esta mensagem de ajuda será exibida.
