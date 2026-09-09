@@ -1,3 +1,9 @@
+/*
+ * Gerador de Senhas do Fernando Isnaldo
+ * Copyright (c) 2026 Fernando Isnaldo Silva de Faria
+ * Programa licenciado sob a GNU General Public License v3.0 (ou qualquer versão posterior).
+ * Veja o arquivo LICENSE na raiz do repositório de origem para mais detalhes.
+ */
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
