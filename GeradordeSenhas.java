@@ -77,7 +77,7 @@ public class GeradordeSenhas {
                 System.out.print(Integer.toHexString(numAleatorio.nextInt(16))); //emite número hexadecimal aleatório
             }
             else {
-                System.out.println("O segundo parâmetro está incorreto, use --help para ler as opções");
+                System.out.println("O segundo parâmetro está incorreto, use --help no primeiro parâmetro para ler as opções");
                 System.exit(1);
             }
         }
