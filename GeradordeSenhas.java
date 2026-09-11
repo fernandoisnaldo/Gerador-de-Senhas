@@ -48,7 +48,7 @@ public class GeradordeSenhas {
                              Gerador de Senhas do Fernando Isnaldo
                              Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
                              Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou superior.
-                             NÂO HÁ GARANTIA vinculada à distribuição deste programa.
+                             NÃO HÁ GARANTIA vinculada à distribuição deste programa.
                              Veja o arquivo LICENSE para mais detalhes.
                                """);
             if(args.length<2){
