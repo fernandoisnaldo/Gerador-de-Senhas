@@ -44,6 +44,11 @@ public class GeradordeSenhas {
                              Emitir 12 números hexadecimais:  
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
+
+                             Gerador de Senhas do Fernando Isnaldo, Copyright (C) 2026  Fernando Isnaldo Silva de Faria
+                             Programa disponibilizado SEM GARANTIA.
+                             Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou superior.
+                             Veja o arquivo LICENSE para mais informações <https://github.com/fernandoisnaldo/Gerador-de-Senhas/blob/main/LICENSE>
                                """);
             if(args.length<2){
                 System.exit(0);
