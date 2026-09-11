@@ -45,7 +45,7 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
 
-                             opyright (C) 2026  Fernando Isnaldo Silva de Faria
+                             Copyright (C) 2026  Fernando Isnaldo Silva de Faria
                              Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou superior. Este programa é distribuído SEM GARANTIA
                              Veja o arquivo LICENSE para mais informações
                                """);
