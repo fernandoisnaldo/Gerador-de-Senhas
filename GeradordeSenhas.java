@@ -2,7 +2,7 @@
  * Gerador de Senhas do Fernando Isnaldo
  * Copyright (c) 2026 Fernando Isnaldo Silva de Faria
  * Programa licenciado sob a GNU General Public License v3.0 (ou qualquer versão posterior).
- * Veja o arquivo LICENSE na raiz do repositório de origem para mais detalhes.
+ * Veja o arquivo LICENSE no repositório do código-fonte para mais detalhes.
  */
 import java.security.SecureRandom;
 public class GeradordeSenhas {
@@ -46,8 +46,8 @@ public class GeradordeSenhas {
                              d5e0a8669e74
 
                              Copyright (C) 2026  Fernando Isnaldo Silva de Faria
-                             Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou superior. Este programa é distribuído SEM GARANTIA
-                             Veja o arquivo LICENSE para mais informações
+                             Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou superior. Este programa é distribuído SEM GARANTIA.
+                             Veja o arquivo LICENSE no repositório do código-fonte para mais detalhes.
                                """);
             if(args.length<2){
                 System.exit(0);
