@@ -10,8 +10,6 @@ public class GeradordeSenhas {
     static final String[] VOGAIS =  {
             "a", "ae", "ai", "ao", "au", "e", "ea", "ei", "eo", "eu", "i", "ia","ie"
             , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue","ui", "uo"
-
-
         };
     static final String[] CONSOANTES = {
             "", "b", "bl","br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh",
