@@ -86,6 +86,12 @@ public class GeradordeSenhas {
             System.err.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
+        else if(numchar<16){
+            System.err.println("""
+                             Aviso: Senhas com menos que 16 elementos costumam ser frágeis.
+                             Considere executar este programa com um parâmetro numérico maior.
+                               """);
+        }
         if (args.length==2 && (args[1].equals("-s") || args[1].equals("--silaba"))){
             silabas = new String[CONSOANTES.length*VOGAIS.length*TERMINACOS.length];
             int sidex=0;
