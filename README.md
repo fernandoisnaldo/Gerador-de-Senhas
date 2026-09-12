@@ -14,7 +14,7 @@ O processo de compilação para gerar bytecode é opcional, mas se você quiser 
 6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3 ou posterior.
 
 Observações:
-1) Devido à alta eficiência combinatória e fonética, este gerador no modo sílaba tem ~0,1% de chance de emitir ofensas por sílaba em múltiplos idiomas. Considere isso um recurso de memorização aprimorada.
+1) Devido à alta eficiência combinatória e fonética, este gerador no modo sílaba tem ~0,1% de chance de emitir ofensas por sílaba em múltiplos idiomas.
 2) Se você quiser entender quais são as sílabas geradas pelo programa, [a documentação delas está por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
 
 # Instruções de uso
