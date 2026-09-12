@@ -10,6 +10,8 @@ public class GeradordeSenhas {
     static final String[] VOGAIS =  {
             "a", "ae", "ai", "ao", "au", "e", "ea", "ei", "eo", "eu", "i", "ia","ie"
             , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue","ui", "uo"
+
+
         };
     static final String[] CONSOANTES = {
             "", "b", "bl","br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh",
@@ -19,8 +21,8 @@ public class GeradordeSenhas {
             , "tr","ty","v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "","b", "ck", "d","k","l","m","n", "nd","ng","p","r", "s", "sk", "t","th"
-            , "w", "wd", "y","yk","yw", "wn"
+            "","b", "ck", "d","k","l","ll","m","n","nd","ng","nt","p","r", "s", "sk", "t","th"
+            , "w", "wd", "y","yk", "wn"
         };
     static String[] silabas;
     public static void main(String[] args) {
