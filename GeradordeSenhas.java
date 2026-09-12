@@ -13,10 +13,11 @@ public class GeradordeSenhas {
             "ui", "uo"
         };
     static final String[] CONSOANTES = {
-            "", "b", "br", "ch", "cr", "d", "dr", "dh", "f", "fh", "fr", "g",
-            "gh", "gr", "h", "j", "k", "kh", "kr", "l", "lh", "m", "n", "nh",
-            "p", "pr", "q", "qy", "r", "s", "t", "th", "tr", "v", "vr", "w",
-            "x", "y", "z"
+            "", "b", "br", "by", "ch", "cr", "cy", "d, "dr", "dh", "dy", "f",
+            "fh", "fr", "fy", "g", "gh", "gr", "gy", "h", "hy, "j", "jy", "k",
+            "kh", "kr", "ky", "l", "lh", "ly", "m", "my", "n", "nh","ny","p",
+            "pr","py", "q", "qy", "r", "ry", "s", "sy", "t", "th", "tr","ty",
+            "v", "vr","vy", "w","wy","x","xy", "y", "z","zy"
         };
     static final  String[] TERMINACOS = {
             "", "k","ng","r", "s", "t", "y", "w"
