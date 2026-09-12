@@ -104,9 +104,9 @@ public class GeradordeSenhas {
             }
             else if(args[1].equals("-s") || args[1].equals("--silaba")){
                 if(elemento!=0L){
-                    System.out.print(" ");
+                    System.out.print(" "); //espaço entre as sílabas
                 }
-                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//emite caractere aleatório
+                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//emite silaba aleatória
             }
             else if(args[1].equals("-n") || args[1].equals("--num") || args[1].equals("--decimal")){
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
