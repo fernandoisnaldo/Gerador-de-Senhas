@@ -41,7 +41,7 @@ public class GeradordeSenhas {
                              -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
-                             -s, --silaba    imprime sílabas aleatórias
+                             -s, --silaba    imprime sílabas
                              
                              Exemplos de uso:
                              
