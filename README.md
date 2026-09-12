@@ -2,7 +2,7 @@
 
 Requer OpenJDK 15 ou superior.
 
-O processo de compilação para gerar bytecode é opcional.
+O processo de compilação para gerar bytecode é opcional, mas se você quiser compilar, o comando é `javac GeradordeSenhas.java`.
 
 
 # Principais características
