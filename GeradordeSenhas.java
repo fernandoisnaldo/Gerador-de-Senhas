@@ -20,7 +20,7 @@ public class GeradordeSenhas {
             "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "", "ck","k","ng","r", "s", "sk", "t","th", "y","yk","yw", "w", "wn"
+            "", "ck", "d","k","n", "nd","ng","r", "s", "sk", "t","th", "y","yk","yw", "w", "wn"
         };
     static String[] silabas;
     public static void main(String[] args) {
@@ -64,7 +64,7 @@ public class GeradordeSenhas {
 
                              Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
-                             nuar qyiek kaut dyiay byaoth fhack crat byis lhiayk kayw graoy dhiask
+                             heund jyuas duak preuyw fioth lyuan lyeuyw xyous khuek choind drouck lheiy
 
                              Gerador de Senhas do Fernando Isnaldo | Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
                              Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou posterior.
