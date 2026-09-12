@@ -13,14 +13,14 @@ public class GeradordeSenhas {
             "ui", "uo"
         };
     static final String[] CONSOANTES = {
-            "", "b", "br", "by", "ch", "cr", "cy", "d, "dr", "dh", "dy", "f",
-            "fh", "fr", "fy", "g", "gh", "gr", "gy", "h", "hy, "j", "jy", "k",
+            "", "b", "br", "by", "c", "ch", "cr", "cy", "d", "dr", "dh", "dy", "f",
+            "fh", "fr", "fy", "g", "gh", "gr", "gy", "h", "hy", "j", "jy", "k",
             "kh", "kr", "ky", "l", "lh", "ly", "m", "my", "n", "nh","ny","p",
             "pr","py", "q", "qy", "r", "ry", "s", "sy", "t", "th", "tr","ty",
-            "v", "vr","vy", "w","wy","x","xy", "y", "z","zy"
+            "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "", "k","ng","r", "s", "t", "y", "w"
+            "", "ck","k","ng","r", "s", "sk", "t","th", "y","yk","yw", "w", "wn"
         };
     static String[] silabas;
     public static void main(String[] args) {
@@ -30,10 +30,10 @@ public class GeradordeSenhas {
                              Uso: java GeradordeSenhas [número de caracteres] [variação de caracteres]
 
                              Este programa aceita no máximo 2 parâmetros, e estes devem estar na ordem indicada por esta mensagem de ajuda.
-                             
+
                              O parâmetro [número de caracteres] é estritamente um número e indica quantos elementos a sua senha terá.
                              Caso este parâmetro não seja utilizado, esta mensagem de ajuda será exibida.
-                             
+
                              O parâmetro [variação de caracteres] é opcional.
                              Caso este parâmetro não seja utilizado, o programa por padrão imprime caracteres ASCII (faixa 33 a 126).
 
@@ -43,9 +43,9 @@ public class GeradordeSenhas {
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
                              -s, --silaba    imprime sílabas aleatórias
-                             
+
                              Exemplos de uso:
-                             
+
                              Emitir 12 caracteres ASCII:
                              java GeradordeSenhas.java 12 -a
                              h7H/a?.&!U&0
@@ -57,18 +57,16 @@ public class GeradordeSenhas {
                              Emitir 12 caracteres alfanuméricos:
                              java GeradordeSenhas.java 12 -an
                              LmKXE26jpFZs
-                             
-                             Emitir 12 números hexadecimais:  
+
+                             Emitir 12 números hexadecimais:
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
 
                              Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
-                             dyeik kruat nyoat dyoar trouy qyoar creu lyuoy vuaw qyier dyuir xoew
-                            
+                             nuar qyiek kaut dyiay byaoth fhack crat byis lhiayk kayw graoy dhiask
 
-                             Gerador de Senhas do Fernando Isnaldo
-                             Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
+                             Gerador de Senhas do Fernando Isnaldo | Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
                              Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou posterior.
                              NÃO HÁ GARANTIA vinculada à distribuição deste programa.
                              Veja o arquivo LICENSE para mais detalhes.
