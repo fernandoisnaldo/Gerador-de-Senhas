@@ -8,19 +8,21 @@ import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
     static final String[] VOGAIS =  {
-            "a", "ae", "ai", "ao", "au", "e", "ei", "eo", "eu", "i", "ia",
-            "ie" , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue",
-            "ui", "uo"
+            "a", "ae", "ai", "ao", "au", "e", "ea", "ei", "eo", "eu", "i", "ia","ie"
+            , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue","ui", "uo"
+
+
         };
     static final String[] CONSOANTES = {
-            "", "b", "br", "by", "c", "ch", "cr", "cy", "d", "dr", "dh", "dy", "f",
-            "fh", "fr", "fy", "g", "gh", "gr", "gy", "h", "hy", "j", "jy", "k",
-            "kh", "kr", "ky", "l", "lh", "ly", "m", "my", "n", "nh","ny","p",
-            "pr","py", "q", "qy", "r", "ry", "s", "sy", "t", "th", "tr","ty",
-            "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
+            "", "b", "bl","br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh",
+            "dy", "f","fh","fl", "fr", "fy", "g","gl", "gh", "gr", "gy", "h", "hy",
+            "j", "jy", "k","kh","kl", "kr", "ky", "l","ll", "lh", "ly", "m", "my", "n"
+            , "nh","ny","p","pl","pr","py", "q", "qy", "r", "ry", "s", "sy", "t", "th"
+            , "tr","ty","v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "", "ck", "d","k","n", "nd","ng","r", "s", "sk", "t","th", "y","yk","yw", "w", "wn"
+            "","b", "ck", "d","k","l","m","n", "nd","ng","p","r", "s", "sk", "t","th"
+            , "w", "wd", "y","yk","yw", "wn"
         };
     static String[] silabas;
     public static void main(String[] args) {
@@ -64,7 +66,7 @@ public class GeradordeSenhas {
 
                              Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
-                             heund jyuas duak preuyw fioth lyuan lyeuyw xyous khuek choind drouck lheiy
+                             dhaoyk muith syik neiwn jyiab meup xyeow vrab uiwn puir kyiuk myaur
 
                              Gerador de Senhas do Fernando Isnaldo | Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
                              Este é um software livre, você pode redistribui-lo sob as condições da GPL v3 ou posterior.
