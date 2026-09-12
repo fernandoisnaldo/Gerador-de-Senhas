@@ -41,7 +41,7 @@ public class GeradordeSenhas {
                              -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
-                             -s, --silaba    imprime sílabas
+                             -s, --silaba    imprime sílabas aleatórias
                              
                              Exemplos de uso:
                              
@@ -61,7 +61,7 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
 
-                             Emitir 12 sílabas:
+                             Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
                              priew khout jaot veuy freong griow fiak khias teow vraot lheo craok
 
@@ -104,7 +104,10 @@ public class GeradordeSenhas {
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
             else if(args[1].equals("-s") || args[1].equals("--silaba")){
-                System.out.print(silabas[numAleatorio.nextInt(silabas.length)] + " "); //emite silaba aleatoria
+                if(elemento!=0L){
+                    System.out.print(" ");
+                }
+                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//emite caractere aleatório
             }
             else if(args[1].equals("-n") || args[1].equals("--num") || args[1].equals("--decimal")){
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
