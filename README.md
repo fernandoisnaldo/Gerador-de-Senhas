@@ -8,10 +8,12 @@ O processo de compilação para gerar bytecode é opcional, mas se você quiser 
 # Principais características
 1) Uso da classe SecureRandom, para gerar números aleatórios com ótima qualidade criptográfica.
 2) É uma ferramenta de interface de linhas de comando, que recebe parâmetros diretamente ao iniciar a execução.
-3) O usuário define a quantidade de caracteres gerados.
+3) O usuário define a quantidade de elementos gerados.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais, de caracteres da tabela ASCII ou até de sílabas aleatórias.
-5) Todo caractere tem exatamente a mesma chance de ser gerado no terminal.
+5) Todo elemento tem exatamente a mesma chance de ser gerado no terminal.
 6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3.
+
+Observação: Se você quiser saber quais são as regras das minhas sílabas geradas, [siga por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-do-gerador-de-s%C3%ADlabas-aleat%C3%B3rias-do-Fernando-Isnaldo).
 
 # Instruções de uso
 Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
