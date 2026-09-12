@@ -61,7 +61,7 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
 
-                             Emitir 12 sílabas aleatórias:
+                             Emitir 12 sílabas:
                              java GeradordeSenhas.java 12 -s
                              priew khout jaot veuy freong griow fiak khias teow vraot lheo craok
 
