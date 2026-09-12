@@ -92,7 +92,7 @@ public class GeradordeSenhas {
             for (int c=0;c<CONSOANTES.length;c++){
                 for (int v=0;v<VOGAIS.length;v++){
                     for (int t=0;t<TERMINACOS.length;t++){
-                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t];// gera a sílaba aleatória e coloca no array.
+                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t];// gera as sílabas coloca no array.
                         sidex++;
                     }
                 }
@@ -106,7 +106,7 @@ public class GeradordeSenhas {
                 if(elemento!=0L){
                     System.out.print(" "); //espaço entre as sílabas
                 }
-                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//imprime sílaba aleatória
+                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//seleciona e imprime sílaba aleatória
             }
             else if(args[1].equals("-n") || args[1].equals("--num") || args[1].equals("--decimal")){
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
