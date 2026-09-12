@@ -11,7 +11,7 @@ O processo de compilação para gerar bytecode é opcional, mas se você quiser 
 3) O usuário define a quantidade de elementos gerados.
 4) O usuário pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais, de caracteres da tabela ASCII ou até de sílabas aleatórias.
 5) Todo elemento tem exatamente a mesma chance de ser gerado no terminal.
-6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3.
+6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3 ou posterior.
 
 Observação: Se você quiser entender quais são as sílabas geradas pelo programa, [siga por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
 
