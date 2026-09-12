@@ -7,18 +7,18 @@
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
-    static String[] vogais =  {
+    static final String[] VOGAIS =  {
             "a", "ae", "ai", "ao", "au", "e", "ei", "eo", "eu", "i", "ia",
             "ie" , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue",
             "ui", "uo"
         };
-    static String[] consoantes = {
+    static final String[] CONSOANTES = {
             "", "b", "br", "ch", "cr", "d", "dr", "dh", "f", "fh", "fr", "g",
             "gh", "gr", "h", "j", "k", "kh", "kr", "l", "lh", "m", "n", "nh",
             "p", "pr", "q", "qu", "r", "s", "t", "th", "tr", "v", "vr", "w",
             "x", "y", "z"
         };
-    static String[] terminacos = {
+    static final  String[] TERMINACOS = {
             "", "k","ng","r", "s", "t", "y", "w"
         };
     static String[] silabas;
@@ -60,10 +60,10 @@ public class GeradordeSenhas {
                              Emitir 12 números hexadecimais:  
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
-                             
-                             Emitir 12 sílabas:
+
+                             Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
-                             priew khout jaot veuy freong griow fiak khias teow vraot lheo craok 
+                             priew khout jaot veuy freong griow fiak khias teow vraot lheo craok
 
 
                              Gerador de Senhas do Fernando Isnaldo
@@ -88,12 +88,12 @@ public class GeradordeSenhas {
             System.exit(1);
         }
         if (args.length==2 && (args[1].equals("-s") || args[1].equals("--silaba"))){
-            silabas = new String[consoantes.length*vogais.length*terminacos.length];
+            silabas = new String[CONSOANTES.length*VOGAIS.length*TERMINACOS.length];
             int sidex=0;
-            for (int c=0;c<consoantes.length;c++){
-                for (int v=0;v<vogais.length;v++){
-                    for (int t=0;t<terminacos.length;t++){
-                        silabas[sidex] = consoantes[c]+vogais[v]+terminacos[t];
+            for (int c=0;c<CONSOANTES.length;c++){
+                for (int v=0;v<VOGAIS.length;v++){
+                    for (int t=0;t<TERMINACOS.length;t++){
+                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t];
                         sidex++;
                     }
                 }
