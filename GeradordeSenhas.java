@@ -15,7 +15,7 @@ public class GeradordeSenhas {
     static final String[] CONSOANTES = {
             "", "b", "br", "ch", "cr", "d", "dr", "dh", "f", "fh", "fr", "g",
             "gh", "gr", "h", "j", "k", "kh", "kr", "l", "lh", "m", "n", "nh",
-            "p", "pr", "q", "qu", "r", "s", "t", "th", "tr", "v", "vr", "w",
+            "p", "pr", "q", "qy", "r", "s", "t", "th", "tr", "v", "vr", "w",
             "x", "y", "z"
         };
     static final  String[] TERMINACOS = {
