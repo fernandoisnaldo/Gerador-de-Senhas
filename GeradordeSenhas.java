@@ -64,8 +64,8 @@ public class GeradordeSenhas {
 
                              Emitir 12 sílabas aleatórias:
                              java GeradordeSenhas.java 12 -s
-                             priew khout jaot veuy freong griow fiak khias teow vraot lheo craok
-
+                             dyeik kruat nyoat dyoar trouy qyoar creu lyuoy vuaw qyier dyuir xoew
+                            
 
                              Gerador de Senhas do Fernando Isnaldo
                              Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
