@@ -92,7 +92,7 @@ public class GeradordeSenhas {
             for (int c=0;c<CONSOANTES.length;c++){
                 for (int v=0;v<VOGAIS.length;v++){
                     for (int t=0;t<TERMINACOS.length;t++){
-                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t];// gera as sílabas coloca no array.
+                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t]; //emite as sílabas no array
                         sidex++;
                     }
                 }
