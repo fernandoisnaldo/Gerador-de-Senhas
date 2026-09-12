@@ -7,6 +7,21 @@
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
+    static String[] vogais =  {
+            "a", "ae", "ai", "ao", "au", "e", "ei", "eo", "eu", "i", "ia",
+            "ie" , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue",
+            "ui", "uo"
+        };
+    static String[] consoantes = {
+            "", "b", "br", "ch", "cr", "d", "dr", "dh", "f", "fh", "fr", "g",
+            "gh", "gr", "h", "j", "k", "kh", "kr", "l", "lh", "m", "n", "nh",
+            "p", "pr", "q", "qu", "r", "s", "t", "th", "tr", "v", "vr", "w",
+            "x", "y", "z"
+        };
+    static String[] terminacos = {
+            "", "k","ng","r", "s", "t", "y", "w"
+        };
+    static String[] silabas;
     public static void main(String[] args) {
     	long numchar=-1L;
         if(args.length<1 || args.length>2 || args[0].equals("-h") || args[0].equals("--help")){
@@ -15,7 +30,7 @@ public class GeradordeSenhas {
 
                              Este programa aceita no máximo 2 parâmetros, e estes devem estar na ordem indicada por esta mensagem de ajuda.
                              
-                             O parâmetro [número de caracteres] é estritamente um número e indica quantos caracteres a sua senha terá.
+                             O parâmetro [número de caracteres] é estritamente um número e indica quantos elementos a sua senha terá.
                              Caso este parâmetro não seja utilizado, esta mensagem de ajuda será exibida.
                              
                              O parâmetro [variação de caracteres] é opcional.
@@ -26,6 +41,7 @@ public class GeradordeSenhas {
                              -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
+                             -s, --silaba    imprime sílabas aleatórias
                              
                              Exemplos de uso:
                              
@@ -44,6 +60,11 @@ public class GeradordeSenhas {
                              Emitir 12 números hexadecimais:  
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
+                             
+                             Emitir 12 sílabas:
+                             java GeradordeSenhas.java 12 -s
+                             priew khout jaot veuy freong griow fiak khias teow vraot lheo craok 
+
 
                              Gerador de Senhas do Fernando Isnaldo
                              Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
@@ -66,9 +87,24 @@ public class GeradordeSenhas {
             System.err.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
-        for (long contador=0L;contador<numchar;contador++){
+        if (args.length==2 && (args[1].equals("-s") || args[1].equals("--silaba"))){
+            silabas = new String[consoantes.length*vogais.length*terminacos.length];
+            int sidex=0;
+            for (int c=0;c<consoantes.length;c++){
+                for (int v=0;v<vogais.length;v++){
+                    for (int t=0;t<terminacos.length;t++){
+                        silabas[sidex] = consoantes[c]+vogais[v]+terminacos[t];
+                        sidex++;
+                    }
+                }
+            }
+        }
+        for (long elemento=0L;elemento<numchar;elemento++){
             if(args.length<2 || args[1].equals("-a") || args[1].equals("--ascii") ){
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
+            }
+            else if(args[1].equals("-s") || args[1].equals("--silaba")){
+                System.out.print(silabas[numAleatorio.nextInt(silabas.length)] + " "); //emite silaba aleatoria
             }
             else if(args[1].equals("-n") || args[1].equals("--num") || args[1].equals("--decimal")){
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
