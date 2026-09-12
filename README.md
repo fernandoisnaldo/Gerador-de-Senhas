@@ -13,7 +13,7 @@ O processo de compilação para gerar bytecode é opcional, mas se você quiser 
 5) Todo elemento tem exatamente a mesma chance de ser gerado no terminal.
 6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3.
 
-Observação: Se você quiser saber quais são as minhas sílabas geradas, [siga por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
+Observação: Se você quiser entender quais são as sílabas geradas pelo programa, [siga por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
 
 # Instruções de uso
 Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
