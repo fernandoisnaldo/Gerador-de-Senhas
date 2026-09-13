@@ -8,19 +8,21 @@ import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
     static final String[] VOGAIS =  {
-            "a", "ae", "ai", "ao", "au", "e", "ea", "ei", "eo", "eu", "i", "ia","ie"
-            , "io", "iu", "o", "oa", "oe", "oi", "ou", "u", "ua", "ue","ui", "uo"
+            "a", "aa", "ae", "ai", "ao", "aoe", "au", "aue", "e", "ea", "eai", "ee", "ei",
+            "eo", "eu", "i", "ia", "ie", "io", "iu", "o", "oa", "oe", "oi", "oo", "ou", "u",
+            "ua","uai", "ue","ui", "uia", "uo", "uoa", "uou"
         };
     static final String[] CONSOANTES = {
-            "", "b", "bl","br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh",
-            "dy", "f","fh","fl", "fr", "fy", "g","gl", "gh", "gr", "gy", "h", "hy",
-            "j", "jy", "k","kh","kl", "kr", "ky", "l","ll", "lh", "ly", "m", "my", "n"
-            , "nh","ny","p","pl","pr","py", "q", "qy", "r", "ry", "s", "sy", "t", "th"
-            , "tr","ty","v", "vr","vy", "w", "wh","wy","x","xy", "y", "z", "zh","zy"
+            "", "b", "bl", "br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh", "dy", "f",
+            "fh","fl", "fr", "fy", "g","gl", "gh", "gr", "gy", "h", "hy", "j", "jy", "k",
+            "kh","kl", "kr", "ky", "l","ll", "lh", "ly", "m", "my", "n", "nt", "nh","ny","p",
+            "ph", "phr","pl","pr","py", "q", "qy", "r", "ry", "s", "st", "str", "sy", "t", "th",
+            "tr","ty", "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z","zz", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "","b", "ck", "d","k","l","ll","m","n","nd","ng","nt","p","r", "s", "sk", "t","th"
-            , "w", "wd", "y","yk", "wn"
+            "","b", "bb", "ck", "d", "dd", "f", "ff", "g", "gg", "gl", "h","j","k","l","ll","m",
+            "mp","n", "nn", "nd","ng","p","pp","pt","r", "rr","s", "ss", "sd", "sh", "sk", "t",
+            "tt","th","tk", "w", "wd", "wm","wn","y","yk"
         };
     static String[] silabas;
     public static void main(String[] args) {
@@ -42,7 +44,9 @@ public class GeradordeSenhas {
                              -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
-                             -s, --silaba    imprime sílabas aleatórias
+                             -s, --sil, --silaba    imprime sílabas
+
+                             Aviso: Pode sair palavras ofensivas do modo sílaba, devido à seleção aleatória de fonemas.
 
                              Exemplos de uso:
 
@@ -86,7 +90,7 @@ public class GeradordeSenhas {
             System.err.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
-        if (args.length==2 && (args[1].equals("-s") || args[1].equals("--silaba"))){
+        if (args.length==2 && (args[1].equals("-s") || args[1].equals("--sil") ||  args[1].equals("--silaba"))){
             silabas = new String[CONSOANTES.length*VOGAIS.length*TERMINACOS.length];
             int sidex=0;
             for (int c=0;c<CONSOANTES.length;c++){
@@ -102,7 +106,7 @@ public class GeradordeSenhas {
             if(args.length<2 || args[1].equals("-a") || args[1].equals("--ascii") ){
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
             }
-            else if(args[1].equals("-s") || args[1].equals("--silaba")){
+            else if(args[1].equals("-s") || args[1].equals("--sil") || args[1].equals("--silaba")){
                 if(elemento!=0L){
                     System.out.print(" "); //espaço entre as sílabas
                 }
