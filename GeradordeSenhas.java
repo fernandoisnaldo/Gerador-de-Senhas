@@ -49,7 +49,7 @@ public class GeradordeSenhas {
                              AVISO DE CONTEÚDO:
                              O modo sílaba utiliza amostragem combinatória puramente aleatória (C + V + T).
                              Em casos raros (~0,09%), o programa pode gerar sílabas que coincidem com palavras ofensivas ou inapropriadas em múltiplos idiomas.
-                             Não há filtros de exclusão para preservar a integridade estrita da entropia criptográfica
+                             Não há filtros de exclusão para preservar a integridade estrita da entropia criptográfica.
 
                              Exemplos de uso:
 
