@@ -8,9 +8,9 @@ import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
     static final String[] VOGAIS =  {
-            "a", "aa", "ae", "ai", "ao", "aoe", "au", "aue", "e", "ea", "eai", "ee", "ei",
-            "eo", "eu", "i", "ia", "ie", "io", "iu", "o", "oa", "oe", "oi", "oo", "ou", "u",
-            "ua","uai", "ue","ui", "uia", "uo", "uoa", "uou"
+            "a", "aa", "ae", "ai", "ao", "aoe", "au", "aue", "e", "ea", "eai", "eao", "ee", "ei",
+            "eo", "eu", "eua", "i", "ia", "iao", "ie", "io", "iu", "o", "oa", "oe", "oi", "oo",
+            "ou","u","ua","uai", "uao", "ue","ui", "uia", "uo", "uoa", "uou"
         };
     static final String[] CONSOANTES = {
             "", "b", "bl", "br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh", "dy", "f",
@@ -20,9 +20,11 @@ public class GeradordeSenhas {
             "tr","ty", "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z","zz", "zh","zy"
         };
     static final  String[] TERMINACOS = {
-            "","b", "bb", "ck", "d", "dd", "f", "ff", "g", "gg", "gl", "h","j","k","l","ll","m",
-            "mp","n", "nn", "nd","ng","p","pp","pt","r", "rr","s", "ss", "sd", "sh", "sk", "t",
-            "tt","th","tk", "w", "wd", "wm","wn","y","yk"
+            "","b", "bb", "c", "cc", "ck", "d", "dd", "f", "ff", "g", "gg", "gl", "h","j","k","l"
+            ,"ll","m","mp","n", "nn", "nd","ng","p","pp","pt", "q", "qq","r", "rn", "rr","s", "sn"
+            ,"ss","sd","sh", "sk", "t","tt","th","tk", "v","vv", "w", "wd", "wm","wn" ,"ww", "x",
+            "xx","y","yk","yx", "yy", "yz","z", "zz"
+
         };
     static String[] silabas;
     public static void main(String[] args) {
@@ -49,7 +51,7 @@ public class GeradordeSenhas {
                              AVISO DE CONTEÚDO:
                              O modo sílaba utiliza amostragem combinatória puramente aleatória (C + V + T).
                              Em casos raros (~0,09%), o programa pode gerar sílabas que coincidem com palavras ofensivas ou inapropriadas em múltiplos idiomas.
-                             Não há filtros de exclusão para preservar a integridade estrita da entropia criptográfica.
+                             Para preservar a integridade da entropia criptográfica, não há filtros de exclusão
 
                              Exemplos de uso:
 
