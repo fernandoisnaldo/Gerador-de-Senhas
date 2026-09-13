@@ -46,8 +46,11 @@ public class GeradordeSenhas {
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
                              -s, --sil, --silaba    imprime sílabas
 
-                             Aviso: Pode sair palavras ofensivas do modo sílaba, devido à seleção aleatória de fonemas.
-
+                             AVISO DE CONTEÚDO:
+                             O modo sílaba utiliza amostragem combinatória puramente aleatória (C + V + T). 
+                             Em casos raros (~0,09%), o motor fonético pode gerar sílabas que coincidem com termos de baixo calão ou palavras sugestivas em múltiplos idiomas. 
+                             Não há filtros de exclusão para preservar a integridade estrita da entropia criptográfica
+                               
                              Exemplos de uso:
 
                              Emitir 12 caracteres ASCII:
