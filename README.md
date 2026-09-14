@@ -19,3 +19,6 @@ Observações:
 
 # Instruções de uso
 Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
+
+# Ver também
+Gerador de senhas versão web: https://github.com/fernandoisnaldo/Gerador-de-Senhas-Web
