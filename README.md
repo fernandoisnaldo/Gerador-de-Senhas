@@ -4,6 +4,8 @@ Requer OpenJDK 15 ou superior.
 
 O processo de compilação para gerar bytecode é opcional, mas se você quiser compilar, o comando é `javac GeradordeSenhas.java`.
 
+# Instruções de uso
+Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
 
 # Principais características
 1) Uso da classe SecureRandom, para gerar números aleatórios com ótima qualidade criptográfica.
@@ -16,9 +18,6 @@ O processo de compilação para gerar bytecode é opcional, mas se você quiser 
 Observações:
 1) Devido à combinação aleatória e fonética no modo sílaba, uma pequena fração das sílabas emitidas podem coincidir com palavras ofensivas em diversos idiomas.
 2) Se você quiser entender quais são as sílabas geradas pelo programa, [a documentação delas está por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
-
-# Instruções de uso
-Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java` 
 
 # Ver também
 Gerador de Senhas versão web: https://github.com/fernandoisnaldo/Gerador-de-Senhas-Web
