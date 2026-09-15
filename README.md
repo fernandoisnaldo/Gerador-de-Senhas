@@ -20,4 +20,4 @@ Observações:
 2) Se você quiser entender quais são as sílabas geradas pelo programa, [a documentação delas está por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
 
 # Ver também
-Gerador de Senhas versão web: https://github.com/fernandoisnaldo/Gerador-de-Senhas-Web
+[Gerador de Senhas versão web](https://github.com/fernandoisnaldo/Gerador-de-Senhas-Web) (JavaScript)
