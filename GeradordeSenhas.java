@@ -19,26 +19,6 @@
 import java.security.SecureRandom;
 public class GeradordeSenhas {
     static SecureRandom numAleatorio = new SecureRandom();
-    static final String[] VOGAIS =  {
-            "a", "aa", "ae", "ai", "ao", "aoe", "au", "aue", "e", "ea", "eai", "eao", "ee", "ei",
-            "eo", "eu", "eua", "i", "ia", "iao", "ie", "io", "iu", "o", "oa", "oe", "oi", "oo",
-            "ou","u","ua","uai", "uao", "ue","ui", "uia", "uo", "uoa", "uou"
-        };
-    static final String[] CONSOANTES = {
-            "", "b", "bl", "br", "by", "c", "ch", "cr","cl", "cy", "d", "dr", "dh", "dy", "f",
-            "fh","fl", "fr", "fy", "g","gl", "gh", "gr", "gy", "h", "hy", "j", "jy", "k",
-            "kh","kl", "kr", "ky", "l","ll", "lh", "ly", "m", "my", "n", "nt", "nh","ny","p",
-            "ph", "phr","pl","pr","py", "q", "qy", "r", "ry", "s", "st", "str", "sy", "t", "th",
-            "tr","ty", "v", "vr","vy", "w", "wh","wy","x","xy", "y", "z","zz", "zh","zy"
-        };
-    static final  String[] TERMINACOS = {
-            "","b", "bb", "c", "cc", "ck", "d", "dd", "f", "ff", "g", "gg", "gl", "h","j","k","l"
-            ,"ll","m","mp","n", "nn", "nd","ng","p","pp","pt", "q", "qq","r", "rn", "rr","s", "sn"
-            ,"ss","sd","sh", "sk", "t","tt","th","tk", "v","vv", "w", "wd", "wm","wn" ,"ww", "x",
-            "xx","y","yk","yx", "yy", "yz","z", "zz"
-
-        };
-    static String[] silabas;
     public static void main(String[] args) {
     	long numchar=-1L;
         if(args.length<1 || args.length>2 || args[0].equals("-h") || args[0].equals("--help")){
@@ -58,12 +38,6 @@ public class GeradordeSenhas {
                              -an, --alfanum, --alfanumerico    imprime caracteres alfanuméricos
                              -n, --num, --decimal    imprime números decimais
                              -x, --hexa, --hexadecimal    imprime números hexadecimais
-                             -s, --sil, --silaba    imprime sílabas
-
-                             AVISO DE CONTEÚDO:
-                             O modo sílaba utiliza amostragem combinatória puramente aleatória (C + V + T).
-                             Em casos raros (~0,09%), o programa pode gerar sílabas que coincidem com palavras ofensivas ou inapropriadas em múltiplos idiomas.
-                             Para preservar a integridade da entropia criptográfica, não há filtros de exclusão
 
                              Exemplos de uso:
 
@@ -83,9 +57,6 @@ public class GeradordeSenhas {
                              java GeradordeSenhas.java 12 -x
                              d5e0a8669e74
 
-                             Emitir 12 sílabas aleatórias:
-                             java GeradordeSenhas.java 12 -s
-                             syiaww dyiaoyy blool ntauw wuaiqq dyuaok suoavv yuaitt wheuth whae syock kraewm
 
                              Gerador de Senhas do Fernando Isnaldo | Copyright (C) 2026 Fernando Isnaldo Silva de Faria.
                              Este é um software livre, você pode redistribuí-lo sob as condições da GPL v3 ou posterior.
@@ -107,27 +78,9 @@ public class GeradordeSenhas {
             System.err.println("O primeiro parâmetro não pode ser menor que 1");
             System.exit(1);
         }
-        if (args.length==2 && (args[1].equals("-s") || args[1].equals("--sil") ||  args[1].equals("--silaba"))){
-            silabas = new String[CONSOANTES.length*VOGAIS.length*TERMINACOS.length];
-            int sidex=0;
-            for (int c=0;c<CONSOANTES.length;c++){
-                for (int v=0;v<VOGAIS.length;v++){
-                    for (int t=0;t<TERMINACOS.length;t++){
-                        silabas[sidex] = CONSOANTES[c]+VOGAIS[v]+TERMINACOS[t]; //emite as sílabas no array
-                        sidex++;
-                    }
-                }
-            }
-        }
         for (long elemento=0L;elemento<numchar;elemento++){
             if(args.length<2 || args[1].equals("-a") || args[1].equals("--ascii") ){
                 System.out.print((char)(numAleatorio.nextInt(94)+33)); //emite caractere ASCII aleatório
-            }
-            else if(args[1].equals("-s") || args[1].equals("--sil") || args[1].equals("--silaba")){
-                if(elemento!=0L){
-                    System.out.print(" "); //espaço entre as sílabas
-                }
-                System.out.print(silabas[numAleatorio.nextInt(silabas.length)]);//seleciona e imprime sílaba aleatória
             }
             else if(args[1].equals("-n") || args[1].equals("--num") || args[1].equals("--decimal")){
                 System.out.print(numAleatorio.nextInt(10)); //emite número decimal aleatório
