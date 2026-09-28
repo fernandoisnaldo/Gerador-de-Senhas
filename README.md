@@ -11,13 +11,9 @@ Para ler as instruções de uso, execute o comando: `java GeradordeSenhas.java`
 1) Uso da classe SecureRandom, para gerar números aleatórios com ótima qualidade criptográfica.
 2) É uma ferramenta de interface de linhas de comando, que recebe parâmetros diretamente ao iniciar a execução.
 3) Quem usa o programa define a quantidade de elementos gerados.
-4) Quem usa o programa pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais, de caracteres da tabela ASCII ou de sílabas aleatórias.
+4) Quem usa o programa pode escolher gerar combinações numéricas, alfanuméricas, hexadecimais ou de caracteres da tabela ASCII.
 5) Todo elemento tem exatamente a mesma chance de ser gerado no terminal.
 6) Este programa é um software livre: pode ser modificado, usado e redistribuído nos termos da GPL v3 ou posterior.
-
-Observações:
-1) Devido à combinação aleatória e fonética no modo sílaba, uma pequena fração das sílabas emitidas podem coincidir com palavras ofensivas em diversos idiomas.
-2) Se você quiser entender quais são as sílabas geradas pelo programa, [a documentação delas está por aqui](https://github.com/fernandoisnaldo/Gerador-de-Senhas/wiki/Especifica%C3%A7%C3%B5es-das-s%C3%ADlabas-aleat%C3%B3rias,-Gerador-de-Senhas-do-Fernando-Isnaldo).
 
 # Ver também
 [Gerador de Senhas versão web](https://github.com/fernandoisnaldo/Gerador-de-Senhas-Web) (JavaScript)
